@@ -10,6 +10,8 @@
 	--hero-color-bg: #2f303a;
 	--page-bg-color: #ffffff;
 	--team-bg-color: #f5f4fa;
+	--footer-bg-color: #2f303a;
+	--border-color: #eeeeee;
 }
 
 body {
@@ -101,6 +103,35 @@ body {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }
+
+.button {
+	color: var(--button-color);
+	background-color: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border: none;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+	background-color: var(--button-color-accent);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	border: 4px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+
 /* Section */
 
 .section-title {
@@ -116,7 +147,6 @@ body {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
-	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
 
@@ -125,7 +155,6 @@ body {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
-	letter-spacing: 0.03em;
 }
 
 .team {
@@ -151,55 +180,91 @@ body {
 	background-color: var(--page-bg-color);
 }
 
-.button {
-	color: var(--button-color);
-	background-color: var(--accent-color);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
-}
-
-.button:hover,
-.button:focus {
-	background-color: var(--button-color-accent);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border: 4px;
-}
 /* footer */
 
 footer {
-	background-color: #2f303a;
+	background-color: var(--footer-bg-color);
 }
 
 .footer .logo {
 	color: var(--white-text-color);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
 }
 
 .footer .logo:hover,
 .footer .logo:focus {
 	color: var(--accent-color);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
 }
 
 .footer .logo-first:hover,
 .footer .logo-first:focus {
 	color: var(--white-text-color);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
 }
 
-.address .address-name {
+.address .address-text {
 	color: var(--white-text-color);
 	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71px;
 }
 
-.address .address-name:hover,
-.address .address-name:focus {
+.address .address-text:hover,
+.address .address-text:focus {
 	color: var(--accent-color);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71px;
 }
 
 .contacts-list .item {
 	color: var(--contact-color);
 	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71px;
 }
 
 .contacts-list .item:hover,
 .contacts-list .item:focus {
 	color: var(--accent-color);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71px;
+}
+
+/* Страница Портфолио */
+
+.filter-item {
+	color: var(--primary-text-color);
+	background-color: var(--team-bg-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border: none;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+}
+
+.filter-item::after {
+	color: var(--button-color);
+	background-color: var(--accent-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border: none;
+	border-radius: 4px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
 }
