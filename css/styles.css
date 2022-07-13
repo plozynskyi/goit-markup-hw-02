@@ -20,6 +20,7 @@ body {
 	color: var(--primary-text-color);
 	font-family: "Roboto", sans-serif;
 	letter-spacing: 0.03em;
+	font-size: 14px;
 }
 .list {
 	list-style: none;
@@ -42,6 +43,13 @@ body {
 /* Лого */
 .logo-header {
 	color: var(--logo-color-text);
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+}
+.logo-footer {
+	color: var(--white-text-color);
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 26px;
@@ -70,14 +78,12 @@ body {
 .site-nav .link {
 	color: var(--primary-text-color);
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
 .auth-nav .link {
 	color: var(--secondery-text-color);
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
@@ -144,13 +150,11 @@ body {
 .feature-item .title {
 	color: var(--primary-text-color);
 	font-weight: 700;
-	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
 }
 .feature-item .text {
 	color: var(--secondery-text-color);
-	font-size: 14px;
 	line-height: 1.71;
 }
 .team {
@@ -175,37 +179,26 @@ body {
 footer {
 	background-color: var(--footer-bg-color);
 }
-.logo-footer {
-	color: var(--white-text-color);
-	font-family: "Raleway", sans-serif;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.19;
-}
 .address .address-text {
 	color: var(--white-text-color);
 	font-style: normal;
-	font-size: 14px;
 	line-height: 1.71;
 }
 .address .address-text:hover,
 .address .address-text:focus {
 	color: var(--accent-color);
 	font-style: normal;
-	font-size: 14px;
 	line-height: 1.71;
 }
 .contacts-list .item {
 	color: var(--contact-color);
 	font-style: normal;
-	font-size: 14px;
 	line-height: 1.71;
 }
 .contacts-list .item:hover,
 .contacts-list .item:focus {
 	color: var(--accent-color);
 	font-style: normal;
-	font-size: 14px;
 	line-height: 1.71;
 }
 /* Страница Портфолио */
@@ -257,6 +250,5 @@ footer {
 .works-text {
 	font-size: 16px;
 	line-height: 1.88;
-	letter-spacing: 0.03em;
 	color: var(--secondery-text-color);
 }
