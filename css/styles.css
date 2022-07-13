@@ -186,27 +186,27 @@ footer {
 	color: var(--white-text-color);
 	font-style: normal;
 	font-size: 14px;
-	line-height: 1.71px;
+	line-height: 1.71;
 }
 .address .address-text:hover,
 .address .address-text:focus {
 	color: var(--accent-color);
 	font-style: normal;
 	font-size: 14px;
-	line-height: 1.71px;
+	line-height: 1.71;
 }
 .contacts-list .item {
 	color: var(--contact-color);
 	font-style: normal;
 	font-size: 14px;
-	line-height: 1.71px;
+	line-height: 1.71;
 }
 .contacts-list .item:hover,
 .contacts-list .item:focus {
 	color: var(--accent-color);
 	font-style: normal;
 	font-size: 14px;
-	line-height: 1.71px;
+	line-height: 1.71;
 }
 /* Страница Портфолио */
 .section-portfolio {
