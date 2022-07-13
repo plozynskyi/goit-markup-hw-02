@@ -40,7 +40,7 @@ body {
 	overflow: hidden;
 	height: 1px;
 }
-/* Лого */
+/* --------------------------ЛОГО-------------------------- */
 .logo-header {
 	color: var(--logo-color-text);
 	font-family: "Raleway", sans-serif;
@@ -74,34 +74,34 @@ body {
 .logo-footer:focus {
 	color: var(--logo-accent-color-tomato);
 }
-/* Стили навигации */
-.site-nav .link {
+/* --------------------------Стили навигации-------------------------- */
+.heder-nav-link {
 	color: var(--primary-text-color);
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
-.auth-nav .link {
+.heder-auth-link {
 	color: var(--secondery-text-color);
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
-.site-nav .link:hover,
-.auth-nav .link:hover,
-.site-nav .link:focus,
-.auth-nav .link:focus {
+.heder-nav-link:hover,
+.heder-auth-link:hover,
+.heder-nav-link:focus,
+.heder-auth-link:focus {
 	color: var(--accent-color);
 }
-.pages .curent {
+.curent {
 	color: var(--accent-color);
 }
-/* Главная область */
-/* Hero */
-.hero {
+/* --------------------------Главная область-------------------------- */
+/* --------------------------ГЕРОЙ-------------------------- */
+.section-hero {
 	background-color: var(--hero-color-bg);
 }
-.hero-title {
+.section-hero-title {
 	color: var(--white-text-color);
 	font-weight: 900;
 	font-size: 44px;
@@ -110,7 +110,7 @@ body {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }
-.button {
+.section-hero-button {
 	color: var(--button-color);
 	background-color: var(--accent-color);
 	cursor: pointer;
@@ -125,91 +125,88 @@ body {
 	letter-spacing: 0.06em;
 	font-family: inherit;
 }
-.button:hover,
-.button:focus {
+.section-hero-button:hover,
+.section-hero-button:focus {
 	background-color: var(--button-color-accent);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
 	border: 4px;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.88;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.06em;
 	font-family: inherit;
 }
-/* Section */
-.section-title {
+/* --------------------------НАШИ ПРИЕМУЩЕСТВА-------------------------- */
+.feature-list-title {
+	color: var(--primary-text-color);
+	font-weight: 700;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+.feature-list-text {
+	color: var(--secondery-text-color);
+	line-height: 1.71;
+}
+/* --------------------------Чем мы занимаемся-------------------------- */
+.section-practice-title {
 	color: var(--primary-text-color);
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
 }
-.feature-item .title {
-	color: var(--primary-text-color);
-	font-weight: 700;
-	line-height: 1.14;
-	text-transform: uppercase;
-}
-.feature-item .text {
-	color: var(--secondery-text-color);
-	line-height: 1.71;
-}
-.team {
+/* --------------------------TEAM-------------------------- */
+.section-team {
 	background-color: var(--team-bg-color);
 }
-.team-item {
+.section-team-title {
+	color: var(--primary-text-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+}
+.team-list-item {
 	background-color: var(--page-bg-color);
 }
-.team-list .title {
+.team-list-title {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
 }
-.team-list .text {
+.team-list-text {
 	color: var(--secondery-text-color);
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
 }
-/* footer */
-footer {
+/* --------------------------FOOTER-------------------------- */
+.footer {
 	background-color: var(--footer-bg-color);
 }
-.address .address-text {
+.address-text {
 	color: var(--white-text-color);
 	font-style: normal;
 	line-height: 1.71;
 }
-.address .address-text:hover,
-.address .address-text:focus {
+.address-text:hover,
+.address-text:focus {
 	color: var(--accent-color);
-	font-style: normal;
-	line-height: 1.71;
 }
-.contacts-list .item {
+.footer-contact-item {
 	color: var(--contact-color);
 	font-style: normal;
 	line-height: 1.71;
 }
-.contacts-list .item:hover,
-.contacts-list .item:focus {
+.footer-contact-item:hover,
+.footer-contact-item:focus {
 	color: var(--accent-color);
-	font-style: normal;
-	line-height: 1.71;
 }
-/* Страница Портфолио */
+/* --------------------------Страница Портфолио-------------------------- */
 .section-portfolio {
 	background-color: var(--page-bg-color);
 }
+/* --------------------------ФИЛЬТР-------------------------- */
 .button-list {
 	color: var(--primary-text-color);
 	background-color: var(--button-filter-bg-color);
 	cursor: pointer;
-	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	border: none;
 	border-radius: 4px;
 	font-weight: 500;
@@ -221,33 +218,25 @@ footer {
 .button-list:hover,
 .button-list:focus {
 	color: var(--button-color);
-	cursor: pointer;
 	background-color: var(--accent-color);
-	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-	border: none;
-	border-radius: 4px;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.62;
-	text-align: center;
 	font-family: inherit;
 }
-.filter .curent {
+.button-curent {
 	color: var(--button-color);
 	background-color: var(--accent-color);
 }
+/* --------------------------ПОРТФОЛИО-------------------------- */
 .portfolio-list-item {
 	box-sizing: border-box;
 	background-color: var(--page-bg-color);
-	border: 1px solid var(--border-color);
 }
-.works-title {
+.portfolio-list-title {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 }
-.works-text {
+.portfolio-list-text {
 	font-size: 16px;
 	line-height: 1.88;
 	color: var(--secondery-text-color);
